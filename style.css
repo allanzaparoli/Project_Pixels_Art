@@ -1,0 +1,52 @@
+
+body {
+  background-color: beige;
+}
+
+header {
+  text-align: center;
+}
+
+#color-palette {
+  margin-left: 498px;
+  margin-right: 450px;
+  text-align: center;
+  display: flex;
+}
+
+.color {
+  width: 100px;
+  height: 100px;
+  margin-left: 5px;
+  border: 1px solid black;
+}
+
+#corQuadPalet1 {
+  background-color: black;
+}
+#corQuadPalet2 {
+  background-color: greenyellow;
+}
+#corQuadPalet3 {
+  background-color: red;
+}
+#corQuadPalet4 {
+  background-color: orange;
+}
+
+#clean-pixel {
+  margin: 10px 400px 1px 710px;
+}
+
+#pixel-board {
+  margin: 8px 570px 5px 630px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1px;
+}
