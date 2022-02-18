@@ -1,26 +1,35 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: beige;
 }
-
+#div-body {
+  margin: 80px auto 1px auto;
+  max-width: 990px;
+  background-color: #B0C4DE;
+}
 header {
   text-align: center;
 }
-
+h2 {
+  text-align: center;
+  padding: 10px;
+}
 #color-palette {
-  margin-left: 498px;
-  margin-right: 450px;
+  margin-left: 280px;
+  margin-right: 250px;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
-
 .color {
   width: 100px;
   height: 100px;
   margin-left: 5px;
   border: 1px solid black;
 }
-
 #corQuadPalet1 {
   background-color: black;
 }
@@ -33,15 +42,17 @@ header {
 #corQuadPalet4 {
   background-color: orange;
 }
-
+#corQuadPalet5 {
+  background-color: white;
+}
 #clean-pixel {
-  margin: 10px 400px 1px 710px;
+  margin: 25px 462px 1px 475px;
 }
-
 #pixel-board {
-  margin: 8px 570px 5px 630px;
+  margin: 25px 370px 5px 390px;
+  padding-bottom: 25px;
+  flex-wrap: wrap;
 }
-
 .pixel {
   width: 40px;
   height: 40px;
