@@ -6,7 +6,7 @@ body {
   background-color: beige;
 }
 #div-body {
-  margin: 80px auto 1px auto;
+  margin: 80px auto 1px;
   max-width: 990px;
   background-color: #B0C4DE;
 }
